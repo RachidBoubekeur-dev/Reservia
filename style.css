@@ -1,0 +1,593 @@
+@media screen and (min-width: 1000px) {
+    body {
+      padding-left: 2.5%;
+    }
+  
+    a {
+      text-decoration: none;
+    }
+  
+    .logo {
+      margin-top: 2.5%;
+    }
+  
+    nav {
+      position: absolute;
+      top: 0px;
+      right: 2%;
+      display: flex;
+      flex-wrap: nowrap;
+      height: 60px;
+    }
+  
+    .nav-element:nth-child(1) {
+      display: flex;
+      align-items: flex-end;
+      padding-left: 30px;
+      padding-right: 30px;
+      font-family: "Raleway";
+      border-top: 3px #0065fc solid;
+      color: #0065fc;
+    }
+  
+    .nav-element:nth-child(2) {
+      display: flex;
+      align-items: flex-end;
+      padding-left: 30px;
+      padding-right: 30px;
+      font-family: "Raleway";
+      color: black;
+    }
+  
+    .nav-element:nth-child(3) {
+      display: flex;
+      align-items: flex-end;
+      padding-left: 30px;
+      padding-right: 30px;
+      color: #0065fc;
+      font-family: "Raleway";
+      font-weight: bold;
+    }
+  
+    header h1 {
+      font-family: "Raleway";
+      font-size: 1.4em;
+      margin-top: 2%;
+    }
+  
+    header h5 {
+      font-family: "Raleway";
+      color: rgb(92, 91, 91);
+      margin-top: -5px;
+      font-size: 1em;
+    }
+  
+    .formsearch {
+      display: flex;
+      height: 50px;
+      margin-top: -7px;
+    }
+  
+    .labelsearch img {
+      background: #f2f2f2;
+      padding: 17px;
+      border-radius: 15px 0px 0px 15px;
+    }
+  
+    #searchcity {
+      border: 1px #f2f2f2 solid;
+      font-family: "Raleway";
+      font-size: 1.1em;
+      font-weight: bold;
+      width: 220px;
+      padding-left: 17px;
+    }
+  
+    .formsearch span:nth-of-type(2)
+    {
+      display: none;
+    }
+  
+    #submitsearch {
+      background: #0065fc;
+      border: none;
+      border-radius: 0px 10px 10px 0px;
+      color: white;
+      font-family: "Raleway";
+      font-size: 1.05em;
+      height: 50px;
+      padding-left: 18px;
+      padding-right: 18px;
+      cursor: pointer;
+      transition: all 0.65s;
+    }
+  
+    #submitsearch:hover {
+      background: #004bbd;
+    }
+  
+    .divfiltre {
+      display: flex;
+      align-items: center;
+      margin-top: 30px;
+      margin-left: -5px;
+      font-family: "Raleway";
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+  
+    .divfiltrep {
+      margin-right: -15px;
+    }
+  
+    .divfiltre div {
+      display: flex;
+      align-items: center;
+      margin-left: 25px;
+      border: 3.5px solid #e6e4e4;
+      border-radius: 50px 50px 50px 50px;
+      height: 43px;
+      cursor: pointer;
+      transition: all 0.55s;
+    }
+  
+    .divfiltre div:hover {
+      background: rgb(218, 233, 255);
+    }
+  
+    .divfiltreimg1 {
+      width: 19px;
+      background: rgb(218, 233, 255);
+      padding: 14px;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      border-radius: 25px;
+      margin-left: -5px;
+    }
+  
+    .divfiltreimg2 {
+      width: 15px;
+      background: rgb(218, 233, 255);
+      padding: 17px;
+      padding-top: 14px;
+      padding-bottom: 14px;
+      border-radius: 25px;
+      margin-left: -5px;
+    }
+  
+    .divfiltreimg3 {
+      width: 15px;
+      background: rgb(218, 233, 255);
+      padding: 17px;
+      border-radius: 25px;
+      margin-left: -5px;
+    }
+  
+    .divfiltreimg4 {
+      width: 20px;
+      background: rgb(218, 233, 255);
+      padding: 15px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+      border-radius: 25px;
+      margin-left: -5px;
+    }
+  
+    .divfiltre p {
+      padding-right: 23px;
+      padding-left: 13px;
+    }
+  
+    header h6 {
+      display: flex;
+      align-items: center;
+      font-family: "Raleway";
+      color: rgb(114, 114, 114);
+      margin-left: 8px;
+      margin-top: 38px;
+      font-size: 0.9em;
+    }
+  
+    header h6 img {
+      width: 5px;
+      border: 2px solid #e6e4e4;
+      border-radius: 50px;
+      padding: 6px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      margin-right: 10px;
+    }
+  
+    #hebergement {
+      display: flex;
+      width: 97%;
+    }
+  
+    section:nth-child(1) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      min-width: 30%;
+      max-width: 61%;
+      background: #f2f2f2;
+      margin-right: 3%;
+      border-radius: 17px;
+      padding: 20px;
+      padding-left: 35px;
+    }
+  
+    section:nth-child(1) h1 {
+      width: 100%;
+      font-family: "Raleway";
+      font-size: 1.2em;
+    }
+  
+    section:nth-child(1) h1:nth-of-type(2) {
+      width: 100%;
+      font-family: "Raleway";
+      font-size: 1.1em;
+    }
+  
+    section:nth-child(1) a {
+      margin-right: 5px;
+    }
+  
+    section:nth-child(1) a aside {
+      display: flex;
+      align-items: flex-end;
+      width: 250px;
+      height: 190px;
+      margin-right: 3%;
+      margin-top: 1%;
+      margin-bottom: 3%;
+      border-radius: 20px;
+      box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
+      border: 4px solid white;
+    }
+  
+    section:nth-child(1) a:nth-of-type(1) aside
+    {
+      background-image: url("images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+      background-size: cover;
+      background-position: 80% 100%;
+    }
+  
+    section:nth-child(1) a aside div
+    {
+      width: 100%;
+      height: 37%;
+      background-color: white;
+      color: black;
+      border-radius: 0px 0px 10px 10px;
+      font-family: 'Raleway';
+      padding-left: 11px;
+    }
+  
+    section:nth-child(1) a aside div h2
+    {
+      margin-top: 7px;
+      font-size: 1em;
+    }
+  
+    section:nth-child(1) a aside div p
+    {
+      margin-top: -11px;
+      font-size: 0.8em;
+      color: rgb(109, 109, 109);
+    }
+  
+    section:nth-child(1) a aside div p strong
+    {
+      color: black;
+    }
+  
+    section:nth-child(1) a aside div span
+    {
+      display: flex;
+      margin-top: -8px;
+    }
+  
+    section:nth-child(1) a aside div span img
+    {
+      width: 15px;
+    }
+  
+    section:nth-child(1) a:nth-of-type(2) aside
+    {
+      background-image: url("images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+      background-size: cover;
+      background-position: 50% 100%;
+    }
+  
+    section:nth-child(1) a:nth-of-type(3) aside
+    {
+      background-image: url("images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+      background-size: cover;
+      background-position: 50% 100%;
+    }
+  
+    section:nth-child(1) a:nth-of-type(4) aside
+    {
+      background-image: url("images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+      background-size: cover;
+      background-position: 50% 100%;
+    }
+  
+    section:nth-child(1) a:nth-of-type(5) aside
+    {
+      background-image: url("images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+      background-size: cover;
+      background-position: 50% 100%;
+    }
+  
+    section:nth-child(1) a:nth-of-type(6) aside
+    {
+      background-image: url("images/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+      background-size: cover;
+      background-position: 50% 78%;
+    }
+    
+    section:nth-child(2) {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 31%;
+      height: 570px;
+      background: #f2f2f2;
+      border-radius: 17px;
+      padding: 20px;
+      padding-left: 30px;
+    }
+  
+    section:nth-child(2) h1 {
+      font-family: "Raleway";
+      font-size: 1.2em;
+    }
+  
+    section:nth-child(2) img {
+      width: 21px;
+      margin-right: 18px;
+    }
+  
+    section:nth-child(2) a {
+      width: 100%;
+    }
+  
+    section:nth-child(2) a aside {
+      display: flex;
+      justify-content: flex-end;
+      min-width: 93%;
+      width: 94%;
+      max-width: 100%;
+      min-height: 100px;
+      height: 130px;
+      max-height: 160px;
+      border-radius: 20px;
+      box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
+      border: 4px solid white;
+      color: black;
+    }
+  
+    section:nth-child(2) a:nth-of-type(1) aside
+    {
+      background-image: url("images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+      background-size: cover;
+      background-position: 0% 100%;
+      margin-bottom: 2%;
+    }
+  
+    section:nth-child(2) a aside div
+    {
+      width: 60%;
+      background-color: white;
+      border-radius: 0px 10px 10px 0px;
+      font-family: 'Raleway';
+      padding-left: 17px;
+      padding-top: 12px;
+    }
+  
+    section:nth-child(2) a aside div h2
+    {
+      margin-top: 7px;
+      font-size: 1em;
+    }
+  
+    section:nth-child(2) a aside div p
+    {
+      margin-top: -8px;
+      font-size: 0.8em;
+      color: rgb(109, 109, 109);
+    }
+  
+    section:nth-child(2) a aside div p strong
+    {
+      color: black;
+    }
+  
+    section:nth-child(2) a aside div span
+    {
+      display: flex;
+    }
+  
+    section:nth-child(2) a aside div span img
+    {
+      width: 15px;
+      margin: 0px;
+    }
+  
+    section:nth-child(2) a:nth-of-type(2) aside
+    {
+      background-image: url("images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg");
+      background-size: cover;
+      background-position: 0% 100%;
+      margin-bottom: 2%;
+    }
+  
+    section:nth-child(2) a:nth-of-type(3) aside
+    {
+      background-image: url("images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+      background-size: cover;
+      background-position: 0% 100%;
+    }
+  
+    #activiter {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 98%;
+      margin-top: 4%;
+      margin-bottom: 4%;
+    }
+  
+    #activiter h1 {
+      width: 100%;
+      font-family: "Raleway";
+      font-size: 1.2em;
+    }
+  
+    #activiter a:nth-of-type(1) aside
+    {
+      display: flex;
+      align-items: flex-end;
+      margin-top: 12px;
+      margin-right: 1%;
+      margin-bottom: 2%;
+      width: 300px;
+      height: 460px;
+      background-image: url("images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+      background-size: cover;
+      background-position: 50% 0%;
+      border-radius: 20px;
+      box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
+    }
+  
+    #activiter a aside div
+    {
+      width: 100%;
+      height: 50px;
+      background: white;
+      color: black;
+      border-radius: 0px 0px 18px 18px;
+    }
+  
+    #activiter a aside div h1
+    {
+      font-family: 'Raleway';
+      font-size: 1em;
+      margin-left: 22px;
+      margin-top: 18px;
+    }
+  
+    #activiter div:nth-of-type(1) a:nth-of-type(1) aside
+    {
+      display: flex;
+      align-items: flex-end;
+      margin-top: 12px;
+      width: 300px;
+      height: 240px;
+      background-image: url("images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+      background-size: cover;
+      background-position: 0% 0%;
+      border-radius: 20px;
+      box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
+    }
+  
+    #activiter div:nth-of-type(1) a:nth-of-type(2) aside
+    {
+      display: flex;
+      align-items: flex-end;
+      margin-top: 35px;
+      margin-left: 0px;
+      width: 300px;
+      height: 185px;
+      background-image: url("images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+      background-size: cover;
+      background-position: 0% 0%;
+      border-radius: 20px;
+      box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
+    }
+  
+    #activiter a:nth-of-type(2) aside
+    {
+      display: flex;
+      align-items: flex-end;
+      margin-top: 12px;
+      margin-right: 1%;
+      margin-left: 1%;
+      width: 300px;
+      height: 460px;
+      background-image: url("images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+      background-size: cover;
+      background-position: 50% 0%;
+      border-radius: 20px;
+      box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
+    }
+  
+    #activiter div:nth-of-type(2) a:nth-of-type(1) aside
+    {
+      display: flex;
+      align-items: flex-end;
+      margin-top: 12px;
+      width: 300px;
+      height: 240px;
+      background-image: url("images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+      background-size: cover;
+      background-position: 0% 0%;
+      border-radius: 20px;
+      box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
+    }
+  
+    #activiter div:nth-of-type(2) a:nth-of-type(2) aside
+    {
+      display: flex;
+      align-items: flex-end;
+      margin-top: 35px;
+      margin-left: 0px;
+      width: 300px;
+      height: 185px;
+      background-image: url("images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+      background-size: cover;
+      background-position: 0% 0%;
+      border-radius: 20px;
+      box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
+    }
+  
+    footer
+    {
+      display: flex;
+      position: absolute;
+      left: 0px;
+      margin-top: 1%;
+      width: 100%;
+      background: #e6e4e4;
+    }
+  
+    footer div:nth-of-type(1)
+    {
+      margin-left: 50px;
+    }
+  
+    footer div 
+    {
+      margin-top: 38px;
+      margin-right: 18%;
+      margin-bottom: 3%;
+    }
+  
+    footer div h1 
+    {
+      font-family: 'Raleway';
+      font-size: 1.1em;
+      margin-bottom: 25px;
+    }
+  
+    footer div p
+    {
+      font-family: 'Raleway';
+      font-size: 0.95em;
+      color: rgba(0,0,0,0.6);
+      cursor: pointer;
+    }
+  }

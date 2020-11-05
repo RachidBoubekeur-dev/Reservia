@@ -3,10 +3,57 @@
     <head>
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet" />
         <title>Reservia</title>
     </head>
 
     <body>
+        <header>
+            <p class="logo"><a href=""><img src="images/logo/Reservia.svg" alt="Logo Reservia" /></a></p>
+    
+            <nav>
+                <a href="#hebergement" class="nav-element">Hébergements</a>
+                <a href="#activiter" class="nav-element">Activités</a>
+                <a href="" class="nav-element">S'inscrire</a>
+            </nav>
+    
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+    
+            <h5>En plein centre ville ou en pleine nature</h5>
+    
+            <form model="POST" action="" class="formsearch">
+                <label for="searchcity" class="labelsearch"><img src="images/logo/map.svg" alt="Image Position" width="12px" /></label>
+                <input id="searchcity" type="text" value="Marseille, France" />
+                <span><input id="submitsearch" type="submit" value="Rechercher" /></span>
+                <span><input id="submitsearch" type="submit" value="" /><img src="images/logo/search.png" alt="Rechercher" /></span>
+            </form>
+    
+            <div class="divfiltre">
+                <p class="divfiltrep">Filtres</p>
+    
+                <div>
+                    <img src="images/logo/economique.svg" alt="Économique" class="divfiltreimg1" />
+                    <p>Économique</p>
+                </div>
+    
+                <div>
+                    <img src="images/logo/familial.svg" alt="Familial" class="divfiltreimg2" />
+                    <p>Familial</p>
+                </div>
+    
+                <div>
+                    <img src="images/logo/romantique.svg" alt="Romantique" class="divfiltreimg3" />
+                    <p>Romantique</p>
+                </div>
+    
+                <div>
+                    <img src="images/logo/animaux.svg" alt="Animaux autorisés" class="divfiltreimg4" />
+                    <p>Animaux autorisés</p>
+                </div>
+            </div>
+    
+            <h6><img src="images/logo/info.png" alt="Info" /> Plus de 500 logements sont disponibles dans cette ville</h6>
+        </header>
 
     </body>
 </html>

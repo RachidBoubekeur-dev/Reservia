@@ -79,7 +79,7 @@
     height: 50px;
   }
 
-  .labelsearch img {
+  .labelsearch i {
     background: #f2f2f2;
     padding: 17px;
     border-radius: 15px 0px 0px 15px;
@@ -154,8 +154,9 @@
     background: rgb(218, 233, 255);
   }
 
-  .divfiltreimg1 {
-    width: 19px;
+  .divfiltre div:nth-of-type(1) i {
+    font-size: 15px;
+    color: #0065fc;
     background: rgb(218, 233, 255);
     padding: 14px;
     padding-top: 17px;
@@ -164,8 +165,9 @@
     margin-left: -5px;
   }
 
-  .divfiltreimg2 {
-    width: 15px;
+  .divfiltre div:nth-of-type(2) i {
+    font-size: 20px;
+    color: #0065fc;
     background: rgb(218, 233, 255);
     padding: 17px;
     padding-top: 14px;
@@ -174,16 +176,18 @@
     margin-left: -5px;
   }
 
-  .divfiltreimg3 {
-    width: 15px;
+  .divfiltre div:nth-of-type(3) i {
+    font-size: 15px;
+    color: #0065fc;
     background: rgb(218, 233, 255);
     padding: 17px;
     border-radius: 25px;
     margin-left: -5px;
   }
 
-  .divfiltreimg4 {
-    width: 20px;
+  .divfiltre div:nth-of-type(4) i {
+    font-size: 17px;
+    color: #0065fc;
     background: rgb(218, 233, 255);
     padding: 15px;
     padding-top: 16px;
@@ -207,13 +211,14 @@
     font-size: 0.9em;
   }
 
-  header h6 img {
-    width: 5px;
+  header h6 i {
+    font-size: 10px;
+    color: #0065fc;
     border: 2px solid #e6e4e4;
-    border-radius: 50px;
-    padding: 6px;
+    border-radius: 66px;
+    padding: 6.5px;
     padding-top: 3px;
-    padding-bottom: 3px;
+    padding-bottom: 4px;
     margin-right: 10px;
   }
 
@@ -682,7 +687,7 @@
     margin-top: -7px;
   }
 
-  .labelsearch img {
+  .labelsearch i {
     background: #f2f2f2;
     padding: 17px;
     border-radius: 15px 0px 0px 15px;
@@ -752,8 +757,9 @@
     background: rgb(218, 233, 255);
   }
 
-  .divfiltreimg1 {
-    width: 19px;
+  .divfiltre div:nth-of-type(1) i {
+    font-size: 15px;
+    color: #0065fc;
     background: rgb(218, 233, 255);
     padding: 14px;
     padding-top: 17px;
@@ -762,8 +768,9 @@
     margin-left: -5px;
   }
 
-  .divfiltreimg2 {
-    width: 15px;
+  .divfiltre div:nth-of-type(2) i {
+    font-size: 20px;
+    color: #0065fc;
     background: rgb(218, 233, 255);
     padding: 17px;
     padding-top: 14px;
@@ -772,16 +779,18 @@
     margin-left: -5px;
   }
 
-  .divfiltreimg3 {
-    width: 15px;
+  .divfiltre div:nth-of-type(3) i {
+    font-size: 15px;
+    color: #0065fc;
     background: rgb(218, 233, 255);
     padding: 17px;
     border-radius: 25px;
     margin-left: -5px;
   }
 
-  .divfiltreimg4 {
-    width: 20px;
+  .divfiltre div:nth-of-type(4) i {
+    font-size: 17px;
+    color: #0065fc;
     background: rgb(218, 233, 255);
     padding: 15px;
     padding-top: 16px;
@@ -805,13 +814,14 @@
     font-size: 0.9em;
   }
 
-  header h6 img {
-    width: 5px;
+  header h6 i {
+    font-size: 10px;
+    color: #0065fc;
     border: 2px solid #e6e4e4;
-    border-radius: 50px;
-    padding: 6px;
+    border-radius: 66px;
+    padding: 6.5px;
     padding-top: 3px;
-    padding-bottom: 3px;
+    padding-bottom: 4px;
     margin-right: 10px;
   }
 
@@ -1281,7 +1291,7 @@
       margin-top: -7px;
     }
   
-    .labelsearch img {
+    .labelsearch i {
       background: #f2f2f2;
       padding: 17px;
       border-radius: 15px 0px 0px 15px;
@@ -1348,8 +1358,9 @@
       background: rgb(218, 233, 255);
     }
   
-    .divfiltreimg1 {
-      width: 19px;
+    .divfiltre div:nth-of-type(1) i {
+      font-size: 15px;
+      color: #0065fc;
       background: rgb(218, 233, 255);
       padding: 14px;
       padding-top: 17px;
@@ -1358,8 +1369,9 @@
       margin-left: -5px;
     }
   
-    .divfiltreimg2 {
-      width: 15px;
+    .divfiltre div:nth-of-type(2) i {
+      font-size: 20px;
+      color: #0065fc;
       background: rgb(218, 233, 255);
       padding: 17px;
       padding-top: 14px;
@@ -1368,16 +1380,18 @@
       margin-left: -5px;
     }
   
-    .divfiltreimg3 {
-      width: 15px;
+    .divfiltre div:nth-of-type(3) i {
+      font-size: 15px;
+      color: #0065fc;
       background: rgb(218, 233, 255);
       padding: 17px;
       border-radius: 25px;
       margin-left: -5px;
     }
   
-    .divfiltreimg4 {
-      width: 20px;
+    .divfiltre div:nth-of-type(4) i {
+      font-size: 17px;
+      color: #0065fc;
       background: rgb(218, 233, 255);
       padding: 15px;
       padding-top: 16px;
@@ -1401,13 +1415,14 @@
       font-size: 0.9em;
     }
   
-    header h6 img {
-      width: 5px;
+    header h6 i {
+      font-size: 10px;
+      color: #0065fc;
       border: 2px solid #e6e4e4;
-      border-radius: 50px;
-      padding: 6px;
+      border-radius: 66px;
+      padding: 6.5px;
       padding-top: 3px;
-      padding-bottom: 3px;
+      padding-bottom: 4px;
       margin-right: 10px;
     }
   
@@ -1421,18 +1436,19 @@
       flex-wrap: wrap;
       justify-content: space-around;
       min-width: 30%;
-      max-width: 61%;
+      max-width: 61.5%;
       background: #f2f2f2;
       margin-right: 3%;
       border-radius: 17px;
       padding: 20px;
-      padding-left: 35px;
+      padding-left: 29px;
     }
   
     section:nth-child(1) h1 {
       width: 100%;
       font-family: "Raleway";
       font-size: 1.2em;
+      padding-left: 12px;
     }
   
     section:nth-child(1) h1:nth-of-type(2) {
@@ -1497,12 +1513,38 @@
     section:nth-child(1) a aside div span
     {
       display: flex;
-      margin-top: -8px;
+      margin-top: -5px;
     }
   
-    section:nth-child(1) a aside div span img
+    section:nth-child(1) a aside div span i
     {
-      width: 15px;
+      font-size: 13px;
+      color: #0065fc;
+    }
+
+    section:nth-child(1) a:nth-of-type(1) i:nth-of-type(5)
+    {
+      color: #e6e4e4;
+    }
+
+    section:nth-child(1) a:nth-of-type(3) i:nth-of-type(5)
+    {
+      color: #e6e4e4;
+    }
+
+    section:nth-child(1) a:nth-of-type(4) i:nth-of-type(4)
+    {
+      color: #e6e4e4;
+    }
+
+    section:nth-child(1) a:nth-of-type(4) i:nth-of-type(5)
+    {
+      color: #e6e4e4;
+    }
+
+    section:nth-child(1) a:nth-of-type(5) i:nth-of-type(5)
+    {
+      color: #e6e4e4;
     }
   
     section:nth-child(1) a:nth-of-type(2) aside
@@ -1558,8 +1600,8 @@
       font-size: 1.2em;
     }
   
-    section:nth-child(2) img {
-      width: 21px;
+    section:nth-child(2) i {
+      font-size: 23px;
       margin-right: 18px;
     }
   
@@ -1602,7 +1644,7 @@
   
     section:nth-child(2) a aside div h2
     {
-      margin-top: 7px;
+      margin-top: 4px;
       font-size: 1em;
     }
   
@@ -1621,12 +1663,24 @@
     section:nth-child(2) a aside div span
     {
       display: flex;
+      margin-top: 13%;
     }
   
-    section:nth-child(2) a aside div span img
+    section:nth-child(2) a aside div span i
     {
-      width: 15px;
+      font-size: 13px;
+      color: #0065fc;
       margin: 0px;
+    }
+
+    section:nth-child(2) a:nth-of-type(2) i:nth-of-type(5)
+    {
+      color: #e6e4e4;
+    }
+
+    section:nth-child(2) a:nth-of-type(3) i:nth-of-type(5)
+    {
+      color: #e6e4e4;
     }
   
     section:nth-child(2) a:nth-of-type(2) aside
@@ -1700,9 +1754,9 @@
       margin-top: 12px;
       width: 300px;
       height: 240px;
-      background-image: url("images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+      background-image: url("images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
       background-size: cover;
-      background-position: 0% 0%;
+      background-position: 0% 50%;
       border-radius: 20px;
       box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
     }

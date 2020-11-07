@@ -47,7 +47,7 @@
   .nav-element:nth-child(3) {
     position: absolute;
     right: 2%;
-    top: 6.25%;
+    top: 5.5%;
     display: flex;
     align-items: flex-end;
     padding-left: 30px;
@@ -57,14 +57,14 @@
     font-weight: bold;
   }
 
-  header h1 {
+  section:nth-of-type(1) h1 {
     font-family: "Raleway";
     font-size: 1.4em;
     margin-top: 7%;
     margin-left: 3%;
   }
 
-  header h5 {
+  section:nth-of-type(1) h5 {
     font-family: "Raleway";
     color: rgb(92, 91, 91);
     margin-top: -5px;
@@ -102,22 +102,22 @@
   #submitsearch {
     background: #0065fc;
     border: none;
-    border-radius: 17px 17px 17px 17px;
+    border-radius: 17px;
     height: 100%;
     margin-left: -25%;
-    padding-left: 27px;
-    padding-right: 27px;
+    padding-left: 25px;
+    padding-right: 25px;
     cursor: pointer;
     transition: all 0.65s;
   }
 
-  .formsearch span:nth-of-type(2) img
+  .formsearch span:nth-of-type(2) i
   {
     position: absolute;
-    margin-left: -39px;
-    margin-top: 12.5px;
-    width: 23px;
-    height: 25px;
+    margin-left: -34px;
+    margin-top: 16px;
+    font-size: 19px;
+    color: white;
     cursor: pointer;
   }
 
@@ -201,7 +201,7 @@
     padding-left: 13px;
   }
 
-  header h6 {
+  section:nth-of-type(1) h6 {
     display: flex;
     align-items: center;
     font-family: "Raleway";
@@ -211,7 +211,7 @@
     font-size: 0.9em;
   }
 
-  header h6 i {
+  section:nth-of-type(1) h6 i {
     font-size: 10px;
     color: #0065fc;
     border: 2px solid #e6e4e4;
@@ -228,47 +228,42 @@
     width: 102.5%;
   }
 
-  section:nth-child(1) {
+  #hebergement article {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 100%;
     margin-left: -2%;
     border-radius: 17px;
-    padding: 20px;
-    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
-  section:nth-child(1) h1 {
+  #hebergement article h1 {
     width: 100%;
     font-family: "Raleway";
     font-size: 1.2em;
+    margin-left: 6.2%;
   }
 
-  section:nth-child(1) h1:nth-of-type(2) {
+  #hebergement article h1:nth-of-type(2) {
     width: 100%;
     font-family: "Raleway";
     font-size: 1.1em;
     margin-bottom: 0%;
   }
 
-  section:nth-child(1) a {
-    margin-right: 5px;
-  }
-
-  section:nth-child(1) a aside {
+  #hebergement article a figure {
     display: flex;
     align-items: flex-end;
-    width: 400px;
-    height: 210px;
-    margin-left: -2%;
+    width: 370px;
+    height: 215px;
     border-radius: 20px;
     box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
     border: 4px solid white;
     color: black;
   }
 
-  section:nth-child(1) a:nth-of-type(1) aside
+  #hebergement article a:nth-of-type(1) figure
   {
     background-image: url("images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
     background-size: cover;
@@ -277,7 +272,7 @@
     margin-bottom: 4%;
   }
 
-  section:nth-child(1) a aside div
+  #hebergement article a figure figcaption
   {
     width: 100%;
     height: 32%;
@@ -287,36 +282,62 @@
     padding-left: 11px;
   }
 
-  section:nth-child(1) a aside div h2
+  #hebergement article a figure figcaption h2
   {
     margin-top: 7px;
     font-size: 1em;
   }
 
-  section:nth-child(1) a aside div p
+  #hebergement article a figure figcaption p
   {
     margin-top: -11px;
     font-size: 0.8em;
     color: rgb(109, 109, 109);
   }
 
-  section:nth-child(1) a aside div p strong
+  #hebergement article a figure figcaption p strong
   {
     color: black;
   }
 
-  section:nth-child(1) a aside div span
+  #hebergement article a figure figcaption span
   {
     display: flex;
-    margin-top: -8px;
+    margin-top: -6px;
   }
 
-  section:nth-child(1) a aside div span img
+  #hebergement article a figure figcaption span i
   {
-    width: 15px;
+    font-size: 13px;
+    color: #0065fc;
   }
 
-  section:nth-child(1) a:nth-of-type(2) aside
+  #hebergement article a:nth-of-type(1) i:nth-of-type(5)
+  {
+    color: #e6e4e4;
+  }
+
+  #hebergement article a:nth-of-type(3) i:nth-of-type(5)
+  {
+    color: #e6e4e4;
+  }
+
+  #hebergement article a:nth-of-type(4) i:nth-of-type(4)
+  {
+    color: #e6e4e4;
+  }
+
+  #hebergement article a:nth-of-type(4) i:nth-of-type(5)
+  {
+    color: #e6e4e4;
+  }
+
+  #hebergement article a:nth-of-type(5) i:nth-of-type(5)
+  {
+    color: #e6e4e4;
+  }
+
+  #hebergement article a:nth-of-type(2) figure
   {
     background-image: url("images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
     background-size: cover;
@@ -324,7 +345,7 @@
     margin-bottom: 4%;
   }
 
-  section:nth-child(1) a:nth-of-type(3) aside
+  #hebergement article a:nth-of-type(3) figure
   {
     background-image: url("images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg");
     background-size: cover;
@@ -332,7 +353,7 @@
     margin-bottom: 4%;
   }
 
-  section:nth-child(1) a:nth-of-type(4) aside
+  #hebergement article a:nth-of-type(4) figure
   {
     background-image: url("images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
     background-size: cover;
@@ -340,7 +361,7 @@
     margin-bottom: 4%;
   }
 
-  section:nth-child(1) a:nth-of-type(5) aside
+  #hebergement article a:nth-of-type(5) figure
   {
     background-image: url("images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
     background-size: cover;
@@ -348,7 +369,7 @@
     margin-bottom: 4%;
   }
 
-  section:nth-child(1) a:nth-of-type(6) aside
+  #hebergement article a:nth-of-type(6) figure
   {
     background-image: url("images/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
     background-size: cover;
@@ -356,38 +377,33 @@
     margin-bottom: 4%;
   }
   
-  section:nth-child(2) {
+  #hebergement aside {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: center;
+    width: 102%;
     background: #f2f2f2;
     margin-left: -2%;
-    padding: 20px;
-    padding-left: 28px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
-  section:nth-child(2) h1 {
+  #hebergement aside h1 {
     font-family: "Raleway";
-    font-size: 1.2em;
+    width: 65%;
+    margin-right: 13%;
+    margin-left: -5%;
   }
 
-  section:nth-child(2) img {
-    width: 21px;
-    margin-right: 2px;
+  #hebergement aside i {
+    font-size: 23px;
   }
 
-  section:nth-child(2) a {
-    width: 100%;
-  }
-
-  section:nth-child(2) a aside {
+  #hebergement aside a figure {
     display: flex;
     justify-content: flex-end;
-    min-width: 93%;
-    width: 96%;
-    max-width: 100%;
+    width: 370px;
     min-height: 100px;
     height: 130px;
     max-height: 160px;
@@ -397,7 +413,7 @@
     color: black;
   }
 
-  section:nth-child(2) a:nth-of-type(1) aside
+  #hebergement aside a:nth-of-type(1) figure
   {
     background-image: url("images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     background-size: cover;
@@ -406,46 +422,59 @@
     margin-top: 3%;
   }
 
-  section:nth-child(2) a aside div
+  #hebergement aside a figure figcaption
   {
     width: 60%;
     background-color: white;
     border-radius: 0px 10px 10px 0px;
     font-family: 'Raleway';
     padding-left: 17px;
-    padding-top: 12px;
+    padding-top: 6px;
   }
 
-  section:nth-child(2) a aside div h2
+  #hebergement aside a figure figcaption h2
   {
     margin-top: 7px;
     font-size: 1em;
   }
 
-  section:nth-child(2) a aside div p
+  #hebergement aside a figure figcaption p
   {
     margin-top: -8px;
     font-size: 0.8em;
     color: rgb(109, 109, 109);
   }
 
-  section:nth-child(2) a aside div p strong
+  #hebergement aside a figure figcaption p strong
   {
     color: black;
   }
 
-  section:nth-child(2) a aside div span
+  #hebergement aside a figure figcaption span
   {
     display: flex;
+    position: relative;
+    bottom: -20px;
   }
 
-  section:nth-child(2) a aside div span img
+  #hebergement aside a figure figcaption span i
   {
-    width: 15px;
+    font-size: 13px;
+    color: #0065fc;
     margin: 0px;
   }
 
-  section:nth-child(2) a:nth-of-type(2) aside
+  #hebergement aside a:nth-of-type(2) i:nth-of-type(5)
+  {
+    color: #e6e4e4;
+  }
+
+  #hebergement aside a:nth-of-type(3) i:nth-of-type(5)
+  {
+    color: #e6e4e4;
+  }
+
+  #hebergement aside a:nth-of-type(2) figure
   {
     background-image: url("images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg");
     background-size: cover;
@@ -453,7 +482,7 @@
     margin-bottom: 3%;
   }
 
-  section:nth-child(2) a:nth-of-type(3) aside
+  #hebergement aside a:nth-of-type(3) figure
   {
     background-image: url("images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
     background-size: cover;
@@ -476,10 +505,10 @@
     width: 100%;
     font-family: "Raleway";
     font-size: 1.2em;
-    margin-left: 5.5%;
+    margin-left: 5%;
   }
 
-  #activiter a:nth-of-type(1) aside
+  #activiter a:nth-of-type(1) figure
   {
     display: flex;
     align-items: flex-end;
@@ -489,12 +518,12 @@
     height: 180px;
     background-image: url("images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     background-size: cover;
-    background-position: 50% 93%;
+    background-position: 50% 45%;
     border-radius: 20px;
     box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
   }
 
-  #activiter a aside div
+  #activiter a figure figcaption
   {
     width: 100%;
     height: 50px;
@@ -503,7 +532,7 @@
     color: black;
   }
 
-  #activiter a aside div h1
+  #activiter a figure figcaption h1
   {
     font-family: 'Raleway';
     font-size: 1em;
@@ -511,7 +540,7 @@
     margin-top: 18px;
   }
 
-  #activiter div:nth-of-type(1) a:nth-of-type(1) aside
+  #activiter div:nth-of-type(1) a:nth-of-type(1) figure
   {
     display: flex;
     align-items: flex-end;
@@ -520,12 +549,12 @@
     height: 180px;
     background-image: url("images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
     background-size: cover;
-    background-position: 0% 13%;
+    background-position: 0% 50%;
     border-radius: 20px;
     box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
   }
 
-  #activiter div:nth-of-type(1) a:nth-of-type(2) aside
+  #activiter div:nth-of-type(1) a:nth-of-type(2) figure
   {
     display: flex;
     align-items: flex-end;
@@ -539,7 +568,7 @@
     box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
   }
 
-  #activiter a:nth-of-type(2) aside
+  #activiter a:nth-of-type(2) figure
   {
     display: flex;
     align-items: flex-end;
@@ -548,12 +577,12 @@
     height: 180px;
     background-image: url("images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
     background-size: cover;
-    background-position: 50% 110%;
+    background-position: 50% 52%;
     border-radius: 20px;
     box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
   }
 
-  #activiter div:nth-of-type(2) a:nth-of-type(1) aside
+  #activiter div:nth-of-type(2) a:nth-of-type(1) figure
   {
     display: flex;
     align-items: flex-end;
@@ -562,12 +591,12 @@
     height: 180px;
     background-image: url("images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
     background-size: cover;
-    background-position: 0% 0%;
+    background-position: 0% 32%;
     border-radius: 20px;
     box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
   }
 
-  #activiter div:nth-of-type(2) a:nth-of-type(2) aside
+  #activiter div:nth-of-type(2) a:nth-of-type(2) figure
   {
     display: flex;
     align-items: flex-end;
@@ -576,7 +605,7 @@
     height: 180px;
     background-image: url("images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     background-size: cover;
-    background-position: 0% 44%;
+    background-position: 0% 1%;
     border-radius: 20px;
     box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
   }
@@ -668,13 +697,13 @@
     font-weight: bold;
   }
 
-  header h1 {
+  section:nth-of-type(1) h1 {
     font-family: "Raleway";
     font-size: 1.4em;
     margin-top: 2%;
   }
 
-  header h5 {
+  section:nth-of-type(1) h5 {
     font-family: "Raleway";
     color: rgb(92, 91, 91);
     margin-top: -5px;
@@ -804,7 +833,7 @@
     padding-left: 13px;
   }
 
-  header h6 {
+  section:nth-of-type(1) h6 {
     display: flex;
     align-items: center;
     font-family: "Raleway";
@@ -814,7 +843,7 @@
     font-size: 0.9em;
   }
 
-  header h6 i {
+  section:nth-of-type(1) h6 i {
     font-size: 10px;
     color: #0065fc;
     border: 2px solid #e6e4e4;
@@ -831,7 +860,7 @@
     width: 97%;
   }
 
-  section:nth-child(1) {
+  #hebergement article {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -841,31 +870,33 @@
     margin-right: 3%;
     border-radius: 17px;
     padding: 20px;
-    padding-left: 35px;
+    padding-left: 20px;
   }
 
-  section:nth-child(1) h1 {
+  #hebergement article h1 {
     width: 100%;
     font-family: "Raleway";
     font-size: 1.2em;
+    text-align: center;
   }
 
-  section:nth-child(1) h1:nth-of-type(2) {
+  #hebergement article h1:nth-of-type(2) {
     width: 100%;
     font-family: "Raleway";
     font-size: 1.1em;
   }
 
-  section:nth-child(1) a {
+  #hebergement article a {
     margin-right: 5px;
   }
 
-  section:nth-child(1) a aside {
+  #hebergement article a figure {
     display: flex;
     align-items: flex-end;
     width: 250px;
     height: 190px;
     margin-right: 3%;
+    margin-left: 4px;
     margin-top: 1%;
     margin-bottom: 3%;
     border-radius: 20px;
@@ -874,14 +905,14 @@
     color: black;
   }
 
-  section:nth-child(1) a:nth-of-type(1) aside
+  #hebergement article a:nth-of-type(1) figure
   {
     background-image: url("images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
     background-size: cover;
     background-position: 80% 100%;
   }
 
-  section:nth-child(1) a aside div
+  #hebergement article a figure figcaption
   {
     width: 100%;
     height: 37%;
@@ -891,71 +922,97 @@
     padding-left: 11px;
   }
 
-  section:nth-child(1) a aside div h2
+  #hebergement article a figure figcaption h2
   {
     margin-top: 7px;
     font-size: 1em;
   }
 
-  section:nth-child(1) a aside div p
+  #hebergement article a figure figcaption p
   {
     margin-top: -11px;
     font-size: 0.8em;
     color: rgb(109, 109, 109);
   }
 
-  section:nth-child(1) a aside div p strong
+  #hebergement article a figure figcaption p strong
   {
     color: black;
   }
 
-  section:nth-child(1) a aside div span
+  #hebergement article a figure figcaption span
   {
     display: flex;
     margin-top: -8px;
   }
 
-  section:nth-child(1) a aside div span img
+  #hebergement article a figure figcaption span i
   {
-    width: 15px;
+    font-size: 13px;
+    color: #0065fc;
   }
 
-  section:nth-child(1) a:nth-of-type(2) aside
+  #hebergement article a:nth-of-type(1) i:nth-of-type(5)
+  {
+    color: #e6e4e4;
+  }
+
+  #hebergement article a:nth-of-type(3) i:nth-of-type(5)
+  {
+    color: #e6e4e4;
+  }
+
+  #hebergement article a:nth-of-type(4) i:nth-of-type(4)
+  {
+    color: #e6e4e4;
+  }
+
+  #hebergement article a:nth-of-type(4) i:nth-of-type(5)
+  {
+    color: #e6e4e4;
+  }
+
+  #hebergement article a:nth-of-type(5) i:nth-of-type(5)
+  {
+    color: #e6e4e4;
+  }
+
+  #hebergement article a:nth-of-type(2) figure
   {
     background-image: url("images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
     background-size: cover;
     background-position: 50% 100%;
   }
 
-  section:nth-child(1) a:nth-of-type(3) aside
+  #hebergement article a:nth-of-type(3) figure
   {
     background-image: url("images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg");
     background-size: cover;
     background-position: 50% 100%;
   }
 
-  section:nth-child(1) a:nth-of-type(4) aside
+  #hebergement article a:nth-of-type(4) figure
   {
     background-image: url("images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
     background-size: cover;
     background-position: 50% 100%;
   }
 
-  section:nth-child(1) a:nth-of-type(5) aside
+  #hebergement article a:nth-of-type(5) figure
   {
     background-image: url("images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
     background-size: cover;
     background-position: 50% 100%;
   }
 
-  section:nth-child(1) a:nth-of-type(6) aside
+  #hebergement article a:nth-of-type(6) figure
   {
     background-image: url("images/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
     background-size: cover;
     background-position: 50% 78%;
   }
   
-  section:nth-child(2) {
+  #hebergement aside {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -969,23 +1026,24 @@
     padding-left: 30px;
   }
 
-  section:nth-child(2) h1 {
+  #hebergement aside h1 {
     font-family: "Raleway";
     font-size: 1.2em;
   }
 
-  section:nth-child(2) img {
-    width: 21px;
+  #hebergement aside i {
+    font-size: 23px;
     margin-right: 18px;
   }
 
-  section:nth-child(2) a {
+  #hebergement aside a {
     width: 100%;
   }
 
-  section:nth-child(2) a aside {
+  #hebergement aside a figure {
     display: flex;
     justify-content: flex-end;
+    margin-left: 0px;
     min-width: 93%;
     width: 94%;
     max-width: 100%;
@@ -998,7 +1056,7 @@
     color: black;
   }
 
-  section:nth-child(2) a:nth-of-type(1) aside
+  #hebergement aside a:nth-of-type(1) figure
   {
     background-image: url("images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     background-size: cover;
@@ -1006,7 +1064,7 @@
     margin-bottom: 2%;
   }
 
-  section:nth-child(2) a aside div
+  #hebergement aside a figure figcaption
   {
     width: 60%;
     background-color: white;
@@ -1016,36 +1074,49 @@
     padding-top: 12px;
   }
 
-  section:nth-child(2) a aside div h2
+  #hebergement aside a figure figcaption h2
   {
     margin-top: 7px;
     font-size: 1em;
   }
 
-  section:nth-child(2) a aside div p
+  #hebergement aside a figure figcaption p
   {
     margin-top: -8px;
     font-size: 0.8em;
     color: rgb(109, 109, 109);
   }
 
-  section:nth-child(2) a aside div p strong
+  #hebergement aside a figure figcaption p strong
   {
     color: black;
   }
 
-  section:nth-child(2) a aside div span
+  #hebergement aside a figure figcaption span
   {
     display: flex;
+    position: relative;
+    bottom: -16px;
   }
 
-  section:nth-child(2) a aside div span img
+  #hebergement aside a figure figcaption span i
   {
-    width: 15px;
+    font-size: 13px;
+    color: #0065fc;
     margin: 0px;
   }
 
-  section:nth-child(2) a:nth-of-type(2) aside
+  #hebergement aside a:nth-of-type(2) i:nth-of-type(5)
+  {
+    color: #e6e4e4;
+  }
+
+  #hebergement aside a:nth-of-type(3) i:nth-of-type(5)
+  {
+    color: #e6e4e4;
+  }
+
+  #hebergement aside a:nth-of-type(2) figure
   {
     background-image: url("images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg");
     background-size: cover;
@@ -1053,7 +1124,7 @@
     margin-bottom: 2%;
   }
 
-  section:nth-child(2) a:nth-of-type(3) aside
+  #hebergement aside a:nth-of-type(3) figure
   {
     background-image: url("images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
     background-size: cover;
@@ -1065,7 +1136,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 98.5%;
+    width: 97.5%;
     margin-top: 4%;
     margin-bottom: 4%;
   }
@@ -1074,13 +1145,20 @@
     width: 100%;
     font-family: "Raleway";
     font-size: 1.2em;
+    margin-left: 2px;
   }
 
-  #activiter a:nth-of-type(1) aside
+  #activiter a
+  {
+    margin-left: 1%;
+  }
+
+  #activiter a:nth-of-type(1) figure
   {
     display: flex;
     align-items: flex-end;
     margin-top: 12px;
+    margin-left: 0%;
     margin-right: 1%;
     margin-bottom: 2%;
     width: 300px;
@@ -1092,7 +1170,7 @@
     box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
   }
 
-  #activiter a aside div
+  #activiter a figure figcaption
   {
     width: 100%;
     height: 50px;
@@ -1101,7 +1179,7 @@
     color: black;
   }
 
-  #activiter a aside div h1
+  #activiter a figure figcaption h1
   {
     font-family: 'Raleway';
     font-size: 1em;
@@ -1109,25 +1187,25 @@
     margin-top: 18px;
   }
 
-  #activiter div:nth-of-type(1) a:nth-of-type(1) aside
+  #activiter div:nth-of-type(1) a:nth-of-type(1) figure
   {
     display: flex;
     align-items: flex-end;
-    margin-top: 12px;
+    margin-top: -7px;
     width: 300px;
     height: 240px;
     background-image: url("images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
     background-size: cover;
-    background-position: 0% 0%;
+    background-position: 0% 50%;
     border-radius: 20px;
     box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
   }
 
-  #activiter div:nth-of-type(1) a:nth-of-type(2) aside
+  #activiter div:nth-of-type(1) a:nth-of-type(2) figure
   {
     display: flex;
     align-items: flex-end;
-    margin-top: 35px;
+    margin-top: 11px;
     margin-left: 0px;
     width: 300px;
     height: 185px;
@@ -1138,13 +1216,13 @@
     box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
   }
 
-  #activiter a:nth-of-type(2) aside
+  #activiter a:nth-of-type(2) figure
   {
     display: flex;
     align-items: flex-end;
     margin-top: 12px;
     margin-right: 1%;
-    margin-left: 1%;
+    margin-left: 0%;
     width: 300px;
     height: 460px;
     background-image: url("images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
@@ -1154,11 +1232,11 @@
     box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
   }
 
-  #activiter div:nth-of-type(2) a:nth-of-type(1) aside
+  #activiter div:nth-of-type(2) a:nth-of-type(1) figure
   {
     display: flex;
     align-items: flex-end;
-    margin-top: 12px;
+    margin-top: -7px;
     width: 300px;
     height: 240px;
     background-image: url("images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
@@ -1168,11 +1246,11 @@
     box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
   }
 
-  #activiter div:nth-of-type(2) a:nth-of-type(2) aside
+  #activiter div:nth-of-type(2) a:nth-of-type(2) figure
   {
     display: flex;
     align-items: flex-end;
-    margin-top: 35px;
+    margin-top: 11px;
     margin-left: 0px;
     width: 300px;
     height: 185px;
@@ -1272,13 +1350,13 @@
       font-weight: bold;
     }
   
-    header h1 {
+    section:nth-of-type(1) h1 {
       font-family: "Raleway";
       font-size: 1.4em;
       margin-top: 2%;
     }
   
-    header h5 {
+    section:nth-of-type(1) h5 {
       font-family: "Raleway";
       color: rgb(92, 91, 91);
       margin-top: -5px;
@@ -1405,7 +1483,7 @@
       padding-left: 13px;
     }
   
-    header h6 {
+    section:nth-of-type(1) h6 {
       display: flex;
       align-items: center;
       font-family: "Raleway";
@@ -1415,7 +1493,7 @@
       font-size: 0.9em;
     }
   
-    header h6 i {
+    section:nth-of-type(1) h6 i {
       font-size: 10px;
       color: #0065fc;
       border: 2px solid #e6e4e4;
@@ -1431,42 +1509,43 @@
       width: 97%;
     }
   
-    section:nth-child(1) {
+    #hebergement article {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
       min-width: 30%;
-      max-width: 61.5%;
+      max-width: 62%;
       background: #f2f2f2;
       margin-right: 3%;
       border-radius: 17px;
       padding: 20px;
-      padding-left: 29px;
+      padding-left: 20px;
     }
   
-    section:nth-child(1) h1 {
+    #hebergement article h1 {
       width: 100%;
       font-family: "Raleway";
       font-size: 1.2em;
-      padding-left: 12px;
+      padding-left: 16px;
     }
   
-    section:nth-child(1) h1:nth-of-type(2) {
+    #hebergement article h1:nth-of-type(2) {
       width: 100%;
       font-family: "Raleway";
       font-size: 1.1em;
     }
   
-    section:nth-child(1) a {
+    #hebergement article a {
       margin-right: 5px;
     }
   
-    section:nth-child(1) a aside {
+    #hebergement article a figure {
       display: flex;
       align-items: flex-end;
       width: 250px;
       height: 190px;
       margin-right: 3%;
+      margin-left: 5px;
       margin-top: 1%;
       margin-bottom: 3%;
       border-radius: 20px;
@@ -1474,14 +1553,14 @@
       border: 4px solid white;
     }
   
-    section:nth-child(1) a:nth-of-type(1) aside
+    #hebergement article a:nth-of-type(1) figure
     {
       background-image: url("images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
       background-size: cover;
       background-position: 80% 100%;
     }
   
-    section:nth-child(1) a aside div
+    #hebergement article a figure figcaption
     {
       width: 100%;
       height: 37%;
@@ -1492,97 +1571,97 @@
       padding-left: 11px;
     }
   
-    section:nth-child(1) a aside div h2
+    #hebergement article a figure figcaption h2
     {
       margin-top: 7px;
       font-size: 1em;
     }
   
-    section:nth-child(1) a aside div p
+    #hebergement article a figure figcaption p
     {
       margin-top: -11px;
       font-size: 0.8em;
       color: rgb(109, 109, 109);
     }
   
-    section:nth-child(1) a aside div p strong
+    #hebergement article a figure figcaption p strong
     {
       color: black;
     }
   
-    section:nth-child(1) a aside div span
+    #hebergement article a figure figcaption span
     {
       display: flex;
       margin-top: -5px;
     }
   
-    section:nth-child(1) a aside div span i
+    #hebergement article a figure figcaption span i
     {
       font-size: 13px;
       color: #0065fc;
     }
 
-    section:nth-child(1) a:nth-of-type(1) i:nth-of-type(5)
+    #hebergement article a:nth-of-type(1) i:nth-of-type(5)
     {
       color: #e6e4e4;
     }
 
-    section:nth-child(1) a:nth-of-type(3) i:nth-of-type(5)
+    #hebergement article a:nth-of-type(3) i:nth-of-type(5)
     {
       color: #e6e4e4;
     }
 
-    section:nth-child(1) a:nth-of-type(4) i:nth-of-type(4)
+    #hebergement article a:nth-of-type(4) i:nth-of-type(4)
     {
       color: #e6e4e4;
     }
 
-    section:nth-child(1) a:nth-of-type(4) i:nth-of-type(5)
+    #hebergement article a:nth-of-type(4) i:nth-of-type(5)
     {
       color: #e6e4e4;
     }
 
-    section:nth-child(1) a:nth-of-type(5) i:nth-of-type(5)
+    #hebergement article a:nth-of-type(5) i:nth-of-type(5)
     {
       color: #e6e4e4;
     }
   
-    section:nth-child(1) a:nth-of-type(2) aside
+    #hebergement article a:nth-of-type(2) figure
     {
       background-image: url("images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
       background-size: cover;
       background-position: 50% 100%;
     }
   
-    section:nth-child(1) a:nth-of-type(3) aside
+    #hebergement article a:nth-of-type(3) figure
     {
       background-image: url("images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg");
       background-size: cover;
       background-position: 50% 100%;
     }
   
-    section:nth-child(1) a:nth-of-type(4) aside
+    #hebergement article a:nth-of-type(4) figure
     {
       background-image: url("images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
       background-size: cover;
       background-position: 50% 100%;
     }
   
-    section:nth-child(1) a:nth-of-type(5) aside
+    #hebergement article a:nth-of-type(5) figure
     {
       background-image: url("images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
       background-size: cover;
       background-position: 50% 100%;
     }
   
-    section:nth-child(1) a:nth-of-type(6) aside
+    #hebergement article a:nth-of-type(6) figure
     {
       background-image: url("images/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
       background-size: cover;
       background-position: 50% 78%;
     }
     
-    section:nth-child(2) {
+    #hebergement aside {
       display: flex;
       align-items: center;
       flex-wrap: wrap;
@@ -1595,23 +1674,24 @@
       padding-left: 30px;
     }
   
-    section:nth-child(2) h1 {
+    #hebergement aside h1 {
       font-family: "Raleway";
       font-size: 1.2em;
     }
   
-    section:nth-child(2) i {
+    #hebergement aside i {
       font-size: 23px;
       margin-right: 18px;
     }
   
-    section:nth-child(2) a {
+    #hebergement aside a {
       width: 100%;
     }
   
-    section:nth-child(2) a aside {
+    #hebergement aside a figure {
       display: flex;
       justify-content: flex-end;
+      margin-left: 0px;
       min-width: 93%;
       width: 94%;
       max-width: 100%;
@@ -1624,7 +1704,7 @@
       color: black;
     }
   
-    section:nth-child(2) a:nth-of-type(1) aside
+    #hebergement aside a:nth-of-type(1) figure
     {
       background-image: url("images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
       background-size: cover;
@@ -1632,58 +1712,59 @@
       margin-bottom: 2%;
     }
   
-    section:nth-child(2) a aside div
+    #hebergement aside a figure figcaption
     {
-      width: 60%;
+      width: 63%;
       background-color: white;
       border-radius: 0px 10px 10px 0px;
       font-family: 'Raleway';
-      padding-left: 17px;
+      padding-left: 12px;
       padding-top: 12px;
     }
   
-    section:nth-child(2) a aside div h2
+    #hebergement aside a figure figcaption h2
     {
       margin-top: 4px;
       font-size: 1em;
     }
   
-    section:nth-child(2) a aside div p
+    #hebergement aside a figure figcaption p
     {
       margin-top: -8px;
       font-size: 0.8em;
       color: rgb(109, 109, 109);
     }
   
-    section:nth-child(2) a aside div p strong
+    #hebergement aside a figure figcaption p strong
     {
       color: black;
     }
   
-    section:nth-child(2) a aside div span
+    #hebergement  aside a figure figcaption span
     {
       display: flex;
-      margin-top: 13%;
+      position: relative;
+      bottom: -19px;
     }
   
-    section:nth-child(2) a aside div span i
+    #hebergement aside a figure figcaption span i
     {
       font-size: 13px;
       color: #0065fc;
       margin: 0px;
     }
 
-    section:nth-child(2) a:nth-of-type(2) i:nth-of-type(5)
+    #hebergement aside a:nth-of-type(2) i:nth-of-type(5)
     {
       color: #e6e4e4;
     }
 
-    section:nth-child(2) a:nth-of-type(3) i:nth-of-type(5)
+    #hebergement aside a:nth-of-type(3) i:nth-of-type(5)
     {
       color: #e6e4e4;
     }
   
-    section:nth-child(2) a:nth-of-type(2) aside
+    #hebergement aside a:nth-of-type(2) figure
     {
       background-image: url("images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg");
       background-size: cover;
@@ -1691,7 +1772,7 @@
       margin-bottom: 2%;
     }
   
-    section:nth-child(2) a:nth-of-type(3) aside
+    #hebergement aside a:nth-of-type(3) figure
     {
       background-image: url("images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
       background-size: cover;
@@ -1703,7 +1784,7 @@
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-between;
-      width: 98%;
+      width: 97.5%;
       margin-top: 4%;
       margin-bottom: 4%;
     }
@@ -1712,13 +1793,15 @@
       width: 100%;
       font-family: "Raleway";
       font-size: 1.2em;
+      margin-left: 2px;
     }
   
-    #activiter a:nth-of-type(1) aside
+    #activiter a:nth-of-type(1) figure
     {
       display: flex;
       align-items: flex-end;
       margin-top: 12px;
+      margin-left: 0%;
       margin-right: 1%;
       margin-bottom: 2%;
       width: 300px;
@@ -1730,7 +1813,7 @@
       box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
     }
   
-    #activiter a aside div
+    #activiter a figure figcaption
     {
       width: 100%;
       height: 50px;
@@ -1739,7 +1822,7 @@
       border-radius: 0px 0px 18px 18px;
     }
   
-    #activiter a aside div h1
+    #activiter a figure figcaption h1
     {
       font-family: 'Raleway';
       font-size: 1em;
@@ -1747,26 +1830,26 @@
       margin-top: 18px;
     }
   
-    #activiter div:nth-of-type(1) a:nth-of-type(1) aside
+    #activiter div:nth-of-type(1) a:nth-of-type(1) figure
     {
       display: flex;
       align-items: flex-end;
       margin-top: 12px;
+      margin-left: 2px;
       width: 300px;
       height: 240px;
-      background-image: url("images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+      background-image: url("images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
       background-size: cover;
       background-position: 0% 50%;
       border-radius: 20px;
       box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
     }
   
-    #activiter div:nth-of-type(1) a:nth-of-type(2) aside
+    #activiter div:nth-of-type(1) a:nth-of-type(2) figure
     {
       display: flex;
       align-items: flex-end;
       margin-top: 35px;
-      margin-left: 0px;
       width: 300px;
       height: 185px;
       background-image: url("images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
@@ -1776,7 +1859,7 @@
       box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
     }
   
-    #activiter a:nth-of-type(2) aside
+    #activiter a:nth-of-type(2) figure
     {
       display: flex;
       align-items: flex-end;
@@ -1792,11 +1875,12 @@
       box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
     }
   
-    #activiter div:nth-of-type(2) a:nth-of-type(1) aside
+    #activiter div:nth-of-type(2) a:nth-of-type(1) figure
     {
       display: flex;
       align-items: flex-end;
       margin-top: 12px;
+      margin-left: 3px;
       width: 300px;
       height: 240px;
       background-image: url("images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
@@ -1806,12 +1890,11 @@
       box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
     }
   
-    #activiter div:nth-of-type(2) a:nth-of-type(2) aside
+    #activiter div:nth-of-type(2) a:nth-of-type(2) figure
     {
       display: flex;
       align-items: flex-end;
       margin-top: 35px;
-      margin-left: 0px;
       width: 300px;
       height: 185px;
       background-image: url("images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg");

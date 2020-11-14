@@ -1,3 +1,4 @@
+/* Style pour Mobile */
 @media screen and (max-width: 768px) {
 
   body {
@@ -18,9 +19,10 @@
     flex-wrap: wrap-reverse;
     justify-content: center;
     height: 60px;
-    width: 104%;
+    width: 107.5%;
     margin-left: -1.5%;
     margin-top: -1%;
+    font-size: 1.2em;
   }
 
   .nav-element:nth-child(1) {
@@ -46,8 +48,8 @@
 
   .nav-element:nth-child(3) {
     position: absolute;
-    right: 2%;
-    top: 5.5%;
+    right: -15px;
+    top: 33px;
     display: flex;
     align-items: flex-end;
     padding-left: 30px;
@@ -57,9 +59,9 @@
     font-weight: bold;
   }
 
-  section:nth-of-type(1) h1 {
+  section:nth-of-type(1) h2 {
     font-family: "Raleway";
-    font-size: 1.4em;
+    font-size: 1.9em;
     margin-top: 7%;
     margin-left: 3%;
   }
@@ -70,27 +72,28 @@
     margin-top: -5px;
     margin-bottom: 7%;
     margin-left: 3%;
-    font-size: 1em;
+    font-size: 1.3em;
   }
 
   .formsearch {
     display: flex;
     margin-left: 3%;
-    height: 50px;
+    height: 63px;
   }
 
   .labelsearch i {
     background: #f2f2f2;
-    padding: 17px;
-    border-radius: 15px 0px 0px 15px;
+    padding: 21px;
+    font-size: 1.3em;
+    border-radius: 18px 0px 0px 18px;
   }
 
   #searchcity {
     border: 1px #f2f2f2 solid;
     font-family: "Raleway";
-    font-size: 1.1em;
+    font-size: 1.4em;
     font-weight: bold;
-    width: 220px;
+    width: 72.5%;
     padding-left: 17px;
   }
 
@@ -99,24 +102,25 @@
     display: none;
   }
 
-  #submitsearch {
+  #submitsearch2 {
     background: #0065fc;
     border: none;
     border-radius: 17px;
-    height: 100%;
-    margin-left: -25%;
-    padding-left: 25px;
-    padding-right: 25px;
+    position: absolute;
+    height: 62.5px;
+    width: 66px;
+    margin-top: 0px;
+    margin-left: -2.1%;
     cursor: pointer;
     transition: all 0.65s;
   }
 
   .formsearch span:nth-of-type(2) i
   {
-    position: absolute;
-    margin-left: -34px;
-    margin-top: 16px;
-    font-size: 19px;
+    position: relative;
+    left: 61%;
+    top: 34%;
+    font-size: 20px;
     color: white;
     cursor: pointer;
   }
@@ -125,15 +129,16 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 23px;
     margin-left: -7px;
     font-family: "Raleway";
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 1.25em;
   }
 
   .divfiltrep {
     margin-left: 12px;
+    font-size: 1.15em;
     width: 100%;
   }
 
@@ -141,11 +146,10 @@
     display: flex;
     align-items: center;
     margin-left: 25px;
-    margin-top: 0.5%;
-    margin-bottom: 0.5%;
+    margin-bottom: 3%;
     border: 3.5px solid #e6e4e4;
     border-radius: 50px 50px 50px 50px;
-    height: 43px;
+    height: 50px;
     cursor: pointer;
     transition: all 0.55s;
   }
@@ -155,44 +159,44 @@
   }
 
   .divfiltre div:nth-of-type(1) i {
-    font-size: 15px;
+    font-size: 20px;
     color: #0065fc;
     background: rgb(218, 233, 255);
-    padding: 14px;
-    padding-top: 17px;
-    padding-bottom: 17px;
-    border-radius: 25px;
+    padding: 16px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 28px;
     margin-left: -5px;
   }
 
   .divfiltre div:nth-of-type(2) i {
-    font-size: 20px;
+    font-size: 26px;
     color: #0065fc;
     background: rgb(218, 233, 255);
-    padding: 17px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    border-radius: 25px;
+    padding: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 28px;
     margin-left: -5px;
   }
 
   .divfiltre div:nth-of-type(3) i {
-    font-size: 15px;
+    font-size: 20px;
     color: #0065fc;
     background: rgb(218, 233, 255);
-    padding: 17px;
-    border-radius: 25px;
+    padding: 18px;
+    border-radius: 29px;
     margin-left: -5px;
   }
 
   .divfiltre div:nth-of-type(4) i {
-    font-size: 17px;
+    font-size: 23px;
     color: #0065fc;
     background: rgb(218, 233, 255);
-    padding: 15px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    border-radius: 25px;
+    padding: 16px;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    border-radius: 40px;
     margin-left: -5px;
   }
 
@@ -208,24 +212,35 @@
     color: rgb(114, 114, 114);
     margin-left: 19px;
     margin-top: 38px;
-    font-size: 0.9em;
+    font-size: 1.23em;
   }
 
   section:nth-of-type(1) h6 i {
-    font-size: 10px;
+    font-size: 16px;
     color: #0065fc;
     border: 2px solid #e6e4e4;
-    border-radius: 66px;
-    padding: 6.5px;
-    padding-top: 3px;
-    padding-bottom: 4px;
-    margin-right: 10px;
+    border-radius: 71px;
+    margin-top: -25px;
+    padding: 9.5px;
+    padding-top: 4.3px;
+    padding-bottom: 4.5px;
+    margin-right: 15px;
   }
 
   #hebergement {
     display: flex;
     flex-wrap: wrap-reverse;
-    width: 102.5%;
+    width: 106.1%;
+  }
+
+  #hebergement > h2 {
+    order: 1;
+    width: 100%;
+    font-family: "Raleway";
+    font-size: 1.2em;
+    margin-left: 7%;
+    margin-top: 45px;
+    font-size: 1.8em;
   }
 
   #hebergement article {
@@ -234,29 +249,25 @@
     justify-content: space-around;
     margin-left: -2%;
     border-radius: 17px;
-    padding-top: 20px;
     padding-bottom: 20px;
   }
 
-  #hebergement article h1 {
+  #hebergement article h3 {
     width: 100%;
     font-family: "Raleway";
-    font-size: 1.2em;
-    margin-left: 6.2%;
-  }
-
-  #hebergement article h1:nth-of-type(2) {
-    width: 100%;
-    font-family: "Raleway";
-    font-size: 1.1em;
+    font-size: 1.35em;
+    margin-top: 38px;
+    margin-left: 9%;
     margin-bottom: 0%;
   }
 
   #hebergement article a figure {
     display: flex;
     align-items: flex-end;
-    width: 370px;
-    height: 215px;
+    width: 417px;
+    height: 225px;
+    margin-left: 40px;
+    margin-bottom: 0%;
     border-radius: 20px;
     box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
     border: 4px solid white;
@@ -265,17 +276,17 @@
 
   #hebergement article a:nth-of-type(1) figure
   {
-    background-image: url("images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-image: url("images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
     background-size: cover;
-    background-position: 80% 16%;
+    background-position: 97% -68px;
     margin-top: 1%;
-    margin-bottom: 4%;
   }
 
   #hebergement article a figure figcaption
   {
     width: 100%;
-    height: 32%;
+    height: 36%;
+    margin: -1px;
     background-color: white;
     border-radius: 0px 0px 10px 10px;
     font-family: 'Raleway';
@@ -285,13 +296,13 @@
   #hebergement article a figure figcaption h2
   {
     margin-top: 7px;
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   #hebergement article a figure figcaption p
   {
     margin-top: -11px;
-    font-size: 0.8em;
+    font-size: 1em;
     color: rgb(109, 109, 109);
   }
 
@@ -303,7 +314,7 @@
   #hebergement article a figure figcaption span
   {
     display: flex;
-    margin-top: -6px;
+    margin-top: -9px;
   }
 
   #hebergement article a figure figcaption span i
@@ -339,46 +350,42 @@
 
   #hebergement article a:nth-of-type(2) figure
   {
-    background-image: url("images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-image: url("images/hebergements/1_xlarge/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
     background-size: cover;
-    background-position: 50% 63%;
-    margin-bottom: 4%;
+    background-position: 50% 121%;
   }
 
   #hebergement article a:nth-of-type(3) figure
   {
-    background-image: url("images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-image: url("images/hebergements/1_xlarge/reisetopia-B8WIgxA_PFU-unsplash.jpg");
     background-size: cover;
-    background-position: 50% 74%;
-    margin-bottom: 4%;
+    background-position: 50% 125%;
   }
 
   #hebergement article a:nth-of-type(4) figure
   {
-    background-image: url("images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-image: url("images/hebergements/1_xlarge/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
     background-size: cover;
-    background-position: 50% 15%;
-    margin-bottom: 4%;
+    background-position: 50% 74%;
   }
 
   #hebergement article a:nth-of-type(5) figure
   {
-    background-image: url("images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-image: url("images/hebergements/1_xlarge/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
     background-size: cover;
-    background-position: 50% 0%;
-    margin-bottom: 4%;
+    background-position: 50% -42px;
   }
 
   #hebergement article a:nth-of-type(6) figure
   {
-    background-image: url("images/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-image: url("images/hebergements/1_xlarge/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
     background-size: cover;
-    background-position: 0% 72%;
-    margin-bottom: 4%;
+    background-position: 0% 60%;
   }
   
   #hebergement aside {
     display: flex;
+    order: 2;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
@@ -389,27 +396,30 @@
     padding-bottom: 20px;
   }
 
-  #hebergement aside h1 {
+  #hebergement aside > h2 {
     font-family: "Raleway";
     width: 65%;
-    margin-right: 13%;
-    margin-left: -5%;
+    margin-right: 14.5%;
+    margin-left: -1%;
+    font-size: 1.8em;
   }
 
   #hebergement aside i {
-    font-size: 23px;
+    font-size: 28px;
+    margin-top: 3px;
   }
 
   #hebergement aside a figure {
     display: flex;
     justify-content: flex-end;
-    width: 370px;
+    width: 427px;
     min-height: 100px;
-    height: 130px;
+    height: 150px;
+    margin-left: 4%;
     max-height: 160px;
     border-radius: 20px;
     box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
-    border: 4px solid white;
+    border: 5.5px solid white;
     color: black;
   }
 
@@ -430,18 +440,19 @@
     font-family: 'Raleway';
     padding-left: 17px;
     padding-top: 6px;
+    margin: -2px;
   }
 
   #hebergement aside a figure figcaption h2
   {
     margin-top: 7px;
-    font-size: 1em;
+    font-size: 1.25em;
   }
 
   #hebergement aside a figure figcaption p
   {
     margin-top: -8px;
-    font-size: 0.8em;
+    font-size: 1em;
     color: rgb(109, 109, 109);
   }
 
@@ -459,7 +470,7 @@
 
   #hebergement aside a figure figcaption span i
   {
-    font-size: 13px;
+    font-size: 14px;
     color: #0065fc;
     margin: 0px;
   }
@@ -478,15 +489,16 @@
   {
     background-image: url("images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg");
     background-size: cover;
-    background-position: 0% 100%;
-    margin-bottom: 3%;
+    background-position: 0% 75%;
+    margin-bottom: 0%;
+    margin-top: 0%;
   }
 
   #hebergement aside a:nth-of-type(3) figure
   {
     background-image: url("images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
     background-size: cover;
-    background-position: 0% 100%;
+    background-position: 0% 5%;
     margin-bottom: 4%;
   }
 
@@ -501,21 +513,22 @@
     margin-bottom: 4%;
   }
 
-  #activiter h1 {
+  #activiter > h2 {
     width: 100%;
     font-family: "Raleway";
-    font-size: 1.2em;
-    margin-left: 5%;
+    font-size: 1.7em;
+    margin-left: 8%;
   }
 
   #activiter a:nth-of-type(1) figure
   {
     display: flex;
     align-items: flex-end;
-    margin-top: 5%;
-    margin-bottom: 3%;
-    width: 332px;
-    height: 180px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 37px;
+    width: 425px;
+    height: 225px;
     background-image: url("images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     background-size: cover;
     background-position: 50% 45%;
@@ -526,27 +539,28 @@
   #activiter a figure figcaption
   {
     width: 100%;
-    height: 50px;
+    height: 61px;
     background: white;
     border-radius: 0px 0px 18px 18px;
     color: black;
   }
 
-  #activiter a figure figcaption h1
+  #activiter a figure figcaption h2
   {
     font-family: 'Raleway';
-    font-size: 1em;
+    font-size: 1.15em;
     margin-left: 22px;
-    margin-top: 18px;
+    margin-top: 21px;
   }
 
   #activiter div:nth-of-type(1) a:nth-of-type(1) figure
   {
     display: flex;
     align-items: flex-end;
-    margin-bottom: 8%;
-    width: 332px;
-    height: 180px;
+    margin-left: 37px;
+    margin-bottom: 6%;
+    width: 425px;
+    height: 225px;
     background-image: url("images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
     background-size: cover;
     background-position: 0% 50%;
@@ -558,12 +572,13 @@
   {
     display: flex;
     align-items: flex-end;
-    margin-bottom: 9%;
-    width: 332px;
-    height: 180px;
+    margin-bottom: 3%;
+    margin-left: 37px;
+    width: 425px;
+    height: 225px;
     background-image: url("images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
     background-size: cover;
-    background-position: 0% 39%;
+    background-position: 0% -27px;
     border-radius: 20px;
     box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
   }
@@ -572,12 +587,13 @@
   {
     display: flex;
     align-items: flex-end;
-    margin-bottom: 4%;
-    width: 332px;
-    height: 180px;
+    margin-bottom: 1.5%;
+    margin-left: 37px;
+    width: 425px;
+    height: 225px;
     background-image: url("images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
     background-size: cover;
-    background-position: 50% 52%;
+    background-position: 50% 47%;
     border-radius: 20px;
     box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
   }
@@ -586,12 +602,13 @@
   {
     display: flex;
     align-items: flex-end;
-    margin-bottom: 9%;
-    width: 332px;
-    height: 180px;
+    margin-bottom: 6.5%;
+    margin-left: 37px;
+    width: 425px;
+    height: 225px;
     background-image: url("images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
     background-size: cover;
-    background-position: 0% 32%;
+    background-position: 0% 85%;
     border-radius: 20px;
     box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
   }
@@ -600,9 +617,10 @@
   {
     display: flex;
     align-items: flex-end;
-    margin-bottom: 9%;
-    width: 332px;
-    height: 180px;
+    margin-bottom: 7%;
+    margin-left: 37px;
+    width: 425px;
+    height: 225px;
     background-image: url("images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     background-size: cover;
     background-position: 0% 1%;
@@ -617,7 +635,7 @@
     position: absolute;
     left: 0px;
     margin-top: 1%;
-    padding-left: 5.5%;
+    padding-left: 9%;
     padding-top: 38px;
     width: 94.5%;
     background: #e6e4e4;
@@ -633,19 +651,20 @@
   footer div h1 
   {
     font-family: 'Raleway';
-    font-size: 1.1em;
-    margin-bottom: 25px;
+    font-size: 1.3em;
+    margin-bottom: 23px;
   }
 
   footer div p
   {
     font-family: 'Raleway';
-    font-size: 0.95em;
+    font-size: 1.15em;
     color: rgba(0,0,0,0.75);
     cursor: pointer;
   }
 }
 
+/* Style pour Tablet */
 @media all and (min-width: 768px) and (max-width: 1000px) {
   body {
     padding-left: 2.5%;
@@ -697,7 +716,7 @@
     font-weight: bold;
   }
 
-  section:nth-of-type(1) h1 {
+  section:nth-of-type(1) h2 {
     font-family: "Raleway";
     font-size: 1.4em;
     margin-top: 2%;
@@ -739,7 +758,7 @@
   #submitsearch {
     background: #0065fc;
     border: none;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 17px 17px 0px;
     color: white;
     font-family: "Raleway";
     font-size: 1.05em;
@@ -860,6 +879,14 @@
     width: 97%;
   }
 
+  #hebergement > h2 {
+    position: absolute;
+    margin-top: 40px;
+    font-family: "Raleway";
+    font-size: 1.2em;
+    margin-left: -49%;
+  }
+
   #hebergement article {
     display: flex;
     flex-wrap: wrap;
@@ -870,20 +897,15 @@
     margin-right: 3%;
     border-radius: 17px;
     padding: 20px;
+    padding-top: 96px;
     padding-left: 20px;
   }
 
-  #hebergement article h1 {
-    width: 100%;
-    font-family: "Raleway";
-    font-size: 1.2em;
-    text-align: center;
-  }
-
-  #hebergement article h1:nth-of-type(2) {
+  #hebergement article h3 {
     width: 100%;
     font-family: "Raleway";
     font-size: 1.1em;
+    margin-left: 18px;
   }
 
   #hebergement article a {
@@ -909,7 +931,7 @@
   {
     background-image: url("images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
     background-size: cover;
-    background-position: 80% 100%;
+    background-position: 97% -42px;
   }
 
   #hebergement article a figure figcaption
@@ -920,6 +942,7 @@
     border-radius: 0px 0px 10px 10px;
     font-family: 'Raleway';
     padding-left: 11px;
+    margin: -1px;
   }
 
   #hebergement article a figure figcaption h2
@@ -981,54 +1004,57 @@
   {
     background-image: url("images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
     background-size: cover;
-    background-position: 50% 100%;
+    background-position: 57% -42px;
   }
 
   #hebergement article a:nth-of-type(3) figure
   {
     background-image: url("images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg");
     background-size: cover;
-    background-position: 50% 100%;
+    background-position: 22% -40px;
   }
 
   #hebergement article a:nth-of-type(4) figure
   {
     background-image: url("images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
     background-size: cover;
-    background-position: 50% 100%;
+    background-position: 50% 130%;
   }
 
   #hebergement article a:nth-of-type(5) figure
   {
     background-image: url("images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
     background-size: cover;
-    background-position: 50% 100%;
+    background-position: 49% -49px;
   }
 
   #hebergement article a:nth-of-type(6) figure
   {
     background-image: url("images/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
     background-size: cover;
-    background-position: 50% 78%;
+    background-position: 50% 69%;
   }
   
   #hebergement aside {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
     min-width: 36%;
     width: 36%;
-    height: 570px;
+    height: 1390px;
     background: #f2f2f2;
     border-radius: 17px;
     padding: 20px;
     padding-left: 30px;
   }
 
-  #hebergement aside h1 {
+  #hebergement aside > h2 {
     font-family: "Raleway";
     font-size: 1.2em;
+    margin-top: 20px;
+  }
+
+  #hebergement aside .fa-chart-line {
+    position: absolute;
+    right: 8%;
+    margin-top: -37px;
   }
 
   #hebergement aside i {
@@ -1050,6 +1076,7 @@
     min-height: 100px;
     height: 130px;
     max-height: 160px;
+    margin-bottom: 20%;
     border-radius: 20px;
     box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
     border: 4px solid white;
@@ -1061,7 +1088,7 @@
     background-image: url("images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     background-size: cover;
     background-position: 0% 100%;
-    margin-bottom: 2%;
+    margin-top: 35px;
   }
 
   #hebergement aside a figure figcaption
@@ -1072,6 +1099,7 @@
     font-family: 'Raleway';
     padding-left: 17px;
     padding-top: 12px;
+    margin: -1px;
   }
 
   #hebergement aside a figure figcaption h2
@@ -1120,15 +1148,15 @@
   {
     background-image: url("images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg");
     background-size: cover;
-    background-position: 0% 100%;
-    margin-bottom: 2%;
+    background-position: 0% 75%;
   }
 
   #hebergement aside a:nth-of-type(3) figure
   {
     background-image: url("images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
     background-size: cover;
-    background-position: 0% 100%;
+    background-position: 0% 5%;
+    margin-bottom: 0%;
   }
 
   #activiter {
@@ -1136,12 +1164,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 97.5%;
+    width: 96%;
     margin-top: 4%;
     margin-bottom: 4%;
   }
 
-  #activiter h1 {
+  #activiter h2 {
     width: 100%;
     font-family: "Raleway";
     font-size: 1.2em;
@@ -1179,7 +1207,7 @@
     color: black;
   }
 
-  #activiter a figure figcaption h1
+  #activiter a figure figcaption h2
   {
     font-family: 'Raleway';
     font-size: 1em;
@@ -1191,7 +1219,7 @@
   {
     display: flex;
     align-items: flex-end;
-    margin-top: -7px;
+    margin-top: -6px;
     width: 300px;
     height: 240px;
     background-image: url("images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
@@ -1205,13 +1233,13 @@
   {
     display: flex;
     align-items: flex-end;
-    margin-top: 11px;
+    margin-top: 10px;
     margin-left: 0px;
     width: 300px;
     height: 185px;
     background-image: url("images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
     background-size: cover;
-    background-position: 0% 0%;
+    background-position: 11% -7px;
     border-radius: 20px;
     box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
   }
@@ -1241,7 +1269,7 @@
     height: 240px;
     background-image: url("images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
     background-size: cover;
-    background-position: 0% 0%;
+    background-position: 22% -1px;
     border-radius: 20px;
     box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
   }
@@ -1299,6 +1327,7 @@
   }
 }
 
+/* Style pour Laptop */
 @media screen and (min-width: 1000px) {
     body {
       padding-left: 2.5%;
@@ -1350,7 +1379,7 @@
       font-weight: bold;
     }
   
-    section:nth-of-type(1) h1 {
+    section:nth-of-type(1) h2 {
       font-family: "Raleway";
       font-size: 1.4em;
       margin-top: 2%;
@@ -1392,7 +1421,7 @@
     #submitsearch {
       background: #0065fc;
       border: none;
-      border-radius: 0px 10px 10px 0px;
+      border-radius: 0px 17px 17px 0px;
       color: white;
       font-family: "Raleway";
       font-size: 1.05em;
@@ -1508,6 +1537,14 @@
       display: flex;
       width: 97%;
     }
+
+    #hebergement > h2 {
+      position: absolute;
+      margin-top: 40px;
+      font-family: "Raleway";
+      font-size: 1.2em;
+      margin-left: 37px;
+    }
   
     #hebergement article {
       display: flex;
@@ -1519,20 +1556,15 @@
       margin-right: 3%;
       border-radius: 17px;
       padding: 20px;
+      padding-top: 96px;
       padding-left: 20px;
     }
   
-    #hebergement article h1 {
-      width: 100%;
-      font-family: "Raleway";
-      font-size: 1.2em;
-      padding-left: 16px;
-    }
-  
-    #hebergement article h1:nth-of-type(2) {
+    #hebergement article h3 {
       width: 100%;
       font-family: "Raleway";
       font-size: 1.1em;
+      margin-left: 18px;
     }
   
     #hebergement article a {
@@ -1557,7 +1589,7 @@
     {
       background-image: url("images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
       background-size: cover;
-      background-position: 80% 100%;
+      background-position: 97% -42px;
     }
   
     #hebergement article a figure figcaption
@@ -1630,35 +1662,35 @@
     {
       background-image: url("images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
       background-size: cover;
-      background-position: 50% 100%;
+      background-position: 57% -42px;
     }
   
     #hebergement article a:nth-of-type(3) figure
     {
       background-image: url("images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg");
       background-size: cover;
-      background-position: 50% 100%;
+      background-position: 22% -40px;
     }
   
     #hebergement article a:nth-of-type(4) figure
     {
       background-image: url("images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
       background-size: cover;
-      background-position: 50% 100%;
+      background-position: 50% 130%;
     }
   
     #hebergement article a:nth-of-type(5) figure
     {
       background-image: url("images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
       background-size: cover;
-      background-position: 50% 100%;
+      background-position: 49% -49px;
     }
   
     #hebergement article a:nth-of-type(6) figure
     {
       background-image: url("images/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
       background-size: cover;
-      background-position: 50% 78%;
+      background-position: 50% 69%;
     }
     
     #hebergement aside {
@@ -1674,7 +1706,7 @@
       padding-left: 30px;
     }
   
-    #hebergement aside h1 {
+    #hebergement aside > h2 {
       font-family: "Raleway";
       font-size: 1.2em;
     }
@@ -1768,7 +1800,7 @@
     {
       background-image: url("images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg");
       background-size: cover;
-      background-position: 0% 100%;
+      background-position: 0% 75%;
       margin-bottom: 2%;
     }
   
@@ -1776,7 +1808,7 @@
     {
       background-image: url("images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
       background-size: cover;
-      background-position: 0% 100%;
+      background-position: 0% 5%;
     }
   
     #activiter {
@@ -1789,7 +1821,7 @@
       margin-bottom: 4%;
     }
   
-    #activiter h1 {
+    #activiter h2 {
       width: 100%;
       font-family: "Raleway";
       font-size: 1.2em;
@@ -1822,7 +1854,7 @@
       border-radius: 0px 0px 18px 18px;
     }
   
-    #activiter a figure figcaption h1
+    #activiter a figure figcaption h2
     {
       font-family: 'Raleway';
       font-size: 1em;
@@ -1854,7 +1886,7 @@
       height: 185px;
       background-image: url("images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
       background-size: cover;
-      background-position: 0% 0%;
+      background-position: 11% -7px;
       border-radius: 20px;
       box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
     }
@@ -1885,7 +1917,7 @@
       height: 240px;
       background-image: url("images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
       background-size: cover;
-      background-position: 0% 0%;
+      background-position: 22% -1px;
       border-radius: 20px;
       box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.15);
     }
@@ -1922,7 +1954,7 @@
     footer div 
     {
       margin-top: 38px;
-      margin-right: 18%;
+      margin-right: 19%;
       margin-bottom: 3%;
     }
   

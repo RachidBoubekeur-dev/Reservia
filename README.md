@@ -1,4 +1,5 @@
 # Reservia
+https://rachidboubekeur-dev.github.io/Reservia/
 
 ## 1. General information
 
@@ -12,3 +13,13 @@ The project consists of integrating the new responsive mockup in HTML and CSS.
 1. To start, you will need to `git clone` the project on your machine via a command in your terminal: `git clone https://github.com/RachidBoubekeur-dev/Reservia.git`.
 
 2. Still in your terminal, go to the newly created folder Reservia.
+
+### New responsive mockup
+
+#### Desktop
+
+![Reservia](https://raw.githubusercontent.com/RachidBoubekeur-dev/Reservia/master/images/model/Desktop%20-%201.png)
+
+#### Mobile
+
+![Reservia](https://raw.githubusercontent.com/RachidBoubekeur-dev/Reservia/master/images/model/iPhone%208%20-%201.png)
